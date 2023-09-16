@@ -1,0 +1,96 @@
+/* background */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin: 20px 20px 20px 20px;
+}
+
+/* accorgimenti */
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+
+
+/* contenitore generale */
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 7%;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* LOGO */
+#logo{
+    width: 250px;
+}
+#logotext{
+    font-size: 30px;
+    color: rgb(47, 203, 47);
+}
+
+
+/* rettangolo verde grande */
+.rectangle{
+    left: 50%;
+    top: 50%;
+    background: rgb(47, 203, 47);
+    width: 700px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* accorgimenti 2 */
+#monogino{
+    font-size: 20px;
+}
+#via{
+    font-size: 15px;
+}
+
+
+/* rettangoli batteria */
+.rectanglebattery{
+    left: 50%;
+    top: 50%;
+    background: rgb(235, 164, 42);
+    width: 300px;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.rectanglebattery2{
+    left: 50%;
+    top: 50%;
+    background: rgb(29, 180, 26);
+    width: 500px;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.rectanglebattery3{
+    left: 50%;
+    top: 50%;
+    background: rgb(203, 64, 64);
+    width: 150px;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+/* colore testi */
+#monogino, #via, #carica{
+    color: #fff;
+}
